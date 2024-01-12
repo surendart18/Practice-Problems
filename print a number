@@ -1,0 +1,16 @@
+#include <bits/stdc++.h> // --> Header File 
+using namespace std;  //---> To Avoid std for every line 
+int main()   //---> main function
+{
+    // variable declaration
+    int number;  
+     cout << "Enter an integer" ;
+     cin >> number;
+     
+     cout << "The entered Number is "; 
+     cout << number;
+     // if we use int main() we will use return 0 in last
+     // return 0; 
+}
+
+
