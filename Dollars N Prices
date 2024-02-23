@@ -1,0 +1,24 @@
+Kamal was traveling from Korea to USA and he was not aware
+of the currency system of USA. Can you please help him to add two dollars and cents?
+Note: 1 dollar=100 cents
+
+Input Format
+Input consists of 4 integers. The first two inputs correspond to the value of the first dollar and cent. The next two inputs correspond to the value of the second dollar and cent.
+
+Output Format
+The output should print the sum of dollars and cents.
+
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+   int a,b,c,d;
+  cin>>a>>b>>c>>d;
+  int e=a+c;
+  int f=b+d;
+  cout<<e+(f/100)<<endl;
+  cout<<(f%100);
+  return 0;
+}
