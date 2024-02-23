@@ -1,0 +1,14 @@
+//Write a program to get a float value from the user and display it in the below-mentioned format.
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+  float a;
+  cin>>a;
+  cout<<int(a)<<endl;
+  cout<<ceil(a)<<endl;
+  cout<<floor(a);
+  return 0;
+}
