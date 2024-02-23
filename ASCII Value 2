@@ -1,0 +1,11 @@
+//Write a program to get a number (ASCII value) as input and print its equivalent character.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+  int num;
+  cin>>num;
+  cout<<(char)num;
+  return 0;
+}
