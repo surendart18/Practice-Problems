@@ -1,4 +1,6 @@
 //Write a program to get a float value from the user and display it in the below-mentioned format.
+//Input consists of one float value.
+//The output consists of one integer, its rounded-up value, and its rounded-down value.
 
 #include<iostream>
 #include<cmath>
