@@ -1,0 +1,11 @@
+#Write a program to get a character as input and print its ASCII value.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+  char a;
+  cin>>a;
+  cout<<(int)a;
+  return 0;
+}
