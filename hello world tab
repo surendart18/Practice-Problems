@@ -1,0 +1,12 @@
+Write a program to print Hello World with tab
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+   cout << "Hello World\tHello World";
+
+
+    return 0;
+}
