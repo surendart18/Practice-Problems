@@ -1,0 +1,26 @@
+Write a program to reverse a 3-digit number.
+
+Input Format
+Input consists of an integer.
+
+Output Format
+The output will be the reverse of the input integers.
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  int n;
+  cin>>n;
+  int s=0,t=0;
+  while(n>0)
+  { 
+    t=n%10;
+     s=(s*10)+t;
+     n=n/10;
+  }
+   cout<<s;
+    return 0;
+}
+
