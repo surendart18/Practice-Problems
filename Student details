@@ -1,14 +1,13 @@
-# Write a program to print the details of a student. 
-# The student's details consist of his/her name, age, CGPA, and grade.
-# (The input consists of one string, one integer, one float, and one character.
-# The string corresponds to the name of a student.
-# The integer corresponds to the age of a student.
-# The float corresponds to the CGPA of a student.
-# The character corresponds to the grade of a student.)
+//Write a program to print the details of a student. 
+//The student's details consist of his/her name, age, CGPA, and grade.
+//The input consists of one string, one integer, one float, and one character.
+//The string corresponds to the name of a student.
+//The integer corresponds to the age of a student.
+//The float corresponds to the CGPA of a student.
+//The character corresponds to the grade of a student.
 
 #include <iostream>
 using namespace std;
-
 int main() 
 {
   char name[100];
@@ -21,7 +20,7 @@ int main()
   cout<<"Age: "<<age<<endl;
   cout<<"CGPA: "<<cg<<endl;
   cout<<"Grade: "<<grade;
-    return 0;
+  return 0;
 }
 
 
