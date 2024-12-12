@@ -1,0 +1,11 @@
+// Print the given number
+
+#include<iostream>
+using namespace std;
+int main(){
+    int x;
+    cin>>x;
+    cout<<" Given number is " << x;
+    return 0;
+}
+
