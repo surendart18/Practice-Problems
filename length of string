@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main(){
+    string str;
+    getline(cin,str);
+    int length=0;
+    for(int i=0;str[i]!='\0';i++){ //'\0' = null
+        length++;
+    }
+    cout << "length of the string is "<< length;
+    return 0;
+}
